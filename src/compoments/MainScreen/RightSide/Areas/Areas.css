@@ -1,0 +1,59 @@
+#areas {
+  background: rgba(238, 108, 77, 0.9);
+  transition: all 0.2s ease-in-out;
+  overflow: auto;
+}
+.grid-member {
+  width: 33.3%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  transition: all 0.2s ease-in-out;
+}
+.grid-member:hover {
+  background: rgb(238, 108, 77);
+  transition: all 0.2s ease-in-out;
+}
+.grid-member:hover i {
+  transition: all 0.2s ease-in-out;
+  font-size: 6vw;
+}
+.grid-member:not(:last-child) {
+  border-right: 0.1vw solid #cc563e;
+}
+.grid-member > span {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid-member i {
+  color: white;
+  font-size: 5vw;
+  transition: all 0.2s ease-in-out;
+}
+.grid-member h3 {
+  margin-bottom: 0;
+}
+#areas-grid {
+  display: flex;
+  height: 100%;
+  transition: all 0.2s ease-in-out;
+}
+.web-project {
+  height: 35vh;
+  display: flex;
+  padding: 0 4%;
+}
+#web-area {
+  display: flex;
+  flex-direction: column;
+}
+.web-project .project-screen {
+  height: 80%;
+  margin: auto 0;
+}
+.web-project img {
+  height: 100%;
+  width: auto;
+}
