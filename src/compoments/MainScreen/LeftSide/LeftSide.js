@@ -1,5 +1,5 @@
 import React from 'react';
-import './LeftSide.css';
+import './LeftSide.scss';
 import DynamicTitle from './DynamicTitle/DynamicTitle';
 
 export default class LeftSide extends React.Component {
@@ -10,7 +10,7 @@ export default class LeftSide extends React.Component {
 
   render() {
     return (
-      <div id="left-side">
+      <div id="left-side" style={{ height: this.props.topHeight + 'px' }}>
         <h1 className="name">Flavius</h1>
         <h1 className="name lower-name">Agrigoroaei</h1>
 
@@ -19,13 +19,13 @@ export default class LeftSide extends React.Component {
         </div>
 
         <div id="social">
-          <a href="" className="social-element">
+          <a href="#" className="social-element">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="" className="social-element">
+          <a href="#" className="social-element">
             <i className="fab fa-linkedin-in"></i>
           </a>
-          <a href="" className="social-element">
+          <a href="#" className="social-element">
             <i className="fab fa-github"></i>
           </a>
         </div>

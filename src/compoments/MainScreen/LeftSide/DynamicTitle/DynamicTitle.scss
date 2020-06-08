@@ -1,0 +1,50 @@
+#changing-title {
+  display: inline-block;
+  position: relative;
+  margin-top: 2vw;
+  padding: 1% 2%;
+}
+.title {
+  font-weight: 300;
+  z-index: 2;
+  margin: 0;
+  color: black;
+  position: relative;
+  font-weight: 500;
+}
+.title-line {
+  height: 75%;
+  right: 0vw;
+  background: black;
+  width: 0.3vw;
+  display: block;
+  position: absolute;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+.dynamic-background {
+  width: 103%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

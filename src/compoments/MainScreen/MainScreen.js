@@ -1,7 +1,7 @@
 import React from 'react';
 import LeftSide from './LeftSide/LeftSide';
 import RightSide from './RightSide/RightSide';
-import './MainScreen.css';
+import './MainScreen.scss';
 
 export default class MainScreen extends React.Component {
   constructor(props) {

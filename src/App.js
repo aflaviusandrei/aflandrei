@@ -1,7 +1,7 @@
 import React from 'react';
 import MainScreen from './compoments/MainScreen/MainScreen';
 import Canvas from './compoments/Canvas/Canvas';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

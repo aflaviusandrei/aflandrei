@@ -1,6 +1,8 @@
 import React from 'react';
-import './RightSide.css';
+import './RightSide.scss';
 import Areas from './Areas/Areas';
+
+import cv from '../../../assets/cv.pdf';
 
 export default class RightSide extends React.Component {
   constructor(props) {
@@ -30,10 +32,32 @@ export default class RightSide extends React.Component {
     }, 150);
   };
 
+  refresh = () => {
+    this.setState({
+      bioStyle: {
+        height: '70%',
+        display: 'flex',
+      },
+    });
+  };
+
   render() {
     return (
-      <div id="right-side">
-        <Areas switchToArea={this.switchToArea} />
+      <div
+        id="right-side"
+        style={{
+          marginTop: this.props.topHeight + 'px',
+        }}
+      >
+        <Areas switchToArea={this.switchToArea} refresh={this.refresh} />
+        <div id="bio-contact">
+          <div id="email-container">
+            <a href="mailto:aflaviusandrei@gmail.com">Get in touch</a>
+          </div>
+          <div id="cv-container">
+            <a href={cv}>Résumé</a>
+          </div>
+        </div>
         <div id="bio" style={this.state.bioStyle}>
           <h3>ABOUT ME</h3>
           <p>
@@ -55,14 +79,55 @@ export default class RightSide extends React.Component {
             with:
           </p>
           <div id="skills">
-            <div class="skill-set">
-              <h3 class="skill-header">Languages</h3>
-              <span class="separator"></span>
+            <div className="skill-set">
+              <h3 className="skill-header">Languages</h3>
+              <span className="separator"></span>
               <ul>
-                <li>JavaScript (ES6)</li>
+                <li>JavaScript</li>
                 <li>Python</li>
                 <li>PHP</li>
-                <li>C++</li>
+              </ul>
+            </div>
+            <div className="skill-set">
+              <h3 className="skill-header">Libraries</h3>
+              <span className="separator"></span>
+              <ul>
+                <li>React.js</li>
+                <li>Selenium, WebDriver</li>
+                <li>Axios</li>
+                <li>jQuery, Bootstrap</li>
+                <li>Express.js</li>
+              </ul>
+            </div>
+            <div className="skill-set">
+              <h3 className="skill-header">Technologies</h3>
+              <span className="separator"></span>
+              <ul>
+                <li>Node.js</li>
+                <li>Wordpress, WooCommerce</li>
+                <li>MongoDB, MySQL</li>
+                <li>Shopify</li>
+                <li>Liquid</li>
+                <li>SCSS</li>
+              </ul>
+            </div>
+            <div className="skill-set">
+              <h3 className="skill-header">Tools</h3>
+              <span className="separator"></span>
+              <ul>
+                <li>Git</li>
+                <li>NPM, Pip</li>
+                <li>ESLint</li>
+                <li>Moustache, Handlebars</li>
+              </ul>
+            </div>
+            <div className="skill-set">
+              <h3 className="skill-header">More fun stuff</h3>
+              <span className="separator"></span>
+              <ul>
+                <li>Photoshop, Illustrator, Premiere Pro</li>
+                <li>Adobe XD</li>
+                <li>JetBrains</li>
               </ul>
             </div>
           </div>
