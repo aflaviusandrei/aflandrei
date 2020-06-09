@@ -10,11 +10,11 @@ export default class DynamicTitle extends React.Component {
       titles: [
         'Web developer.',
         'Web designer.',
+        'Cat owner.',
         'Software developer.',
         'UI/UX designer.',
         'Intellectually curious.',
-        'Independent thinker.',
-        'Cat owner.',
+        'Philosophy junkie.',
       ],
     };
   }

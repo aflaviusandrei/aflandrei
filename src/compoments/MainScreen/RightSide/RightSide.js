@@ -32,10 +32,20 @@ export default class RightSide extends React.Component {
     }, 150);
   };
 
+  componentDidMount() {
+    if (window.innerWidth < 1000)
+      this.setState({
+        bioStyle: {
+          height: 'auto',
+          display: 'flex',
+        },
+      });
+  }
+
   refresh = () => {
     this.setState({
       bioStyle: {
-        height: '70%',
+        height: window.innerWidth < 1000 ? 'auto' : '70%',
         display: 'flex',
       },
     });

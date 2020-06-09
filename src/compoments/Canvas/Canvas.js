@@ -10,9 +10,12 @@ export default function Canvas(props) {
     let c = canvas.getContext('2d'),
       cw = window.innerWidth,
       ch = window.innerHeight,
-      stars = 200;
+      stars = 250;
 
-    if (window.innerWidth < 1000) stars = 100;
+    if (window.innerWidth < 1000) {
+      stars = 100;
+      ch += 200;
+    }
 
     c.fillStyle = '#000538';
     c.fillRect(0, 0, cw, ch);

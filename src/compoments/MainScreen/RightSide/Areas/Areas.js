@@ -92,7 +92,7 @@ export default class Areas extends React.Component {
 
   refresh = () => {
     this.setState({
-      areasHeight: '30%',
+      areasHeight: window.innerWidth < 1000 ? '150px' : '30%',
       gridStyle: {
         marginTop: '0%',
       },
@@ -223,11 +223,17 @@ export default class Areas extends React.Component {
   };
 
   componentDidMount() {
-    let els = document.querySelectorAll('.web-project, .software-project');
+    if (window.innerWidth > 1000) {
+      let els = document.querySelectorAll('.web-project, .software-project');
 
-    Array.from(els).forEach((el) => {
-      this.magify(el, el.children[0].children[0], 0);
-    });
+      Array.from(els).forEach((el) => {
+        this.magify(el, el.children[0].children[0], 0);
+      });
+    }
+    if (window.innerWidth < 1000)
+      this.setState({
+        areasHeight: '150px',
+      });
   }
 
   render() {
