@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/aflandrei/static/css/main.d9841ad6.chunk.css",
-    "main.js": "/aflandrei/static/js/main.0404da68.chunk.js",
-    "main.js.map": "/aflandrei/static/js/main.0404da68.chunk.js.map",
+    "main.js": "/aflandrei/static/js/main.509c21a4.chunk.js",
+    "main.js.map": "/aflandrei/static/js/main.509c21a4.chunk.js.map",
     "runtime-main.js": "/aflandrei/static/js/runtime-main.60a31f64.js",
     "runtime-main.js.map": "/aflandrei/static/js/runtime-main.60a31f64.js.map",
     "static/js/2.1ffed3fb.chunk.js": "/aflandrei/static/js/2.1ffed3fb.chunk.js",
     "static/js/2.1ffed3fb.chunk.js.map": "/aflandrei/static/js/2.1ffed3fb.chunk.js.map",
     "index.html": "/aflandrei/index.html",
-    "precache-manifest.6b12556e1c65adf3dd85113bf0f46f22.js": "/aflandrei/precache-manifest.6b12556e1c65adf3dd85113bf0f46f22.js",
+    "precache-manifest.da74dd0a98a726693e0ebb62534b298b.js": "/aflandrei/precache-manifest.da74dd0a98a726693e0ebb62534b298b.js",
     "service-worker.js": "/aflandrei/service-worker.js",
     "static/css/main.d9841ad6.chunk.css.map": "/aflandrei/static/css/main.d9841ad6.chunk.css.map",
     "static/js/2.1ffed3fb.chunk.js.LICENSE.txt": "/aflandrei/static/js/2.1ffed3fb.chunk.js.LICENSE.txt",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.60a31f64.js",
     "static/js/2.1ffed3fb.chunk.js",
     "static/css/main.d9841ad6.chunk.css",
-    "static/js/main.0404da68.chunk.js"
+    "static/js/main.509c21a4.chunk.js"
   ]
 }
