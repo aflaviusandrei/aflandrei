@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4d67a555c861b870d829ae02df4e0a78",
+    "revision": "cbc3aa7fdec4f35b47a84bf59a99259c",
     "url": "/aflandrei/index.html"
   },
   {
-    "revision": "46aaefadc86dcdbd78da",
-    "url": "/aflandrei/static/css/main.d9841ad6.chunk.css"
+    "revision": "84d11f546107b58ec241",
+    "url": "/aflandrei/static/css/main.f23a65bd.chunk.css"
   },
   {
     "revision": "c4761812f62a6d5b9c27",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aflandrei/static/js/2.1ffed3fb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46aaefadc86dcdbd78da",
+    "revision": "84d11f546107b58ec241",
     "url": "/aflandrei/static/js/main.509c21a4.chunk.js"
   },
   {
