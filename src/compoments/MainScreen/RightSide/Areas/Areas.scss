@@ -75,10 +75,14 @@
 
 .web-project,
 .software-project {
+  flex-direction: row;
   img {
     height: auto;
     max-width: 100%;
+    max-height: 100%;
+    display: block;
     transition: transform 0.3s ease-out;
+    align-items: flex-start;
   }
 }
 
