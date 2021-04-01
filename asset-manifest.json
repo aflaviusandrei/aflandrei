@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/aflandrei/static/css/main.5b95d0b7.chunk.css",
-    "main.js": "/aflandrei/static/js/main.322c0ada.chunk.js",
-    "main.js.map": "/aflandrei/static/js/main.322c0ada.chunk.js.map",
+    "main.css": "/aflandrei/static/css/main.c236c71d.chunk.css",
+    "main.js": "/aflandrei/static/js/main.ff34d5a5.chunk.js",
+    "main.js.map": "/aflandrei/static/js/main.ff34d5a5.chunk.js.map",
     "runtime-main.js": "/aflandrei/static/js/runtime-main.60a31f64.js",
     "runtime-main.js.map": "/aflandrei/static/js/runtime-main.60a31f64.js.map",
     "static/js/2.1ffed3fb.chunk.js": "/aflandrei/static/js/2.1ffed3fb.chunk.js",
     "static/js/2.1ffed3fb.chunk.js.map": "/aflandrei/static/js/2.1ffed3fb.chunk.js.map",
     "index.html": "/aflandrei/index.html",
-    "precache-manifest.1d5b05f7993eafc7ce548fcbfba712d6.js": "/aflandrei/precache-manifest.1d5b05f7993eafc7ce548fcbfba712d6.js",
+    "precache-manifest.9ef6e2fd9fdddec4ad2663d4f5dd1728.js": "/aflandrei/precache-manifest.9ef6e2fd9fdddec4ad2663d4f5dd1728.js",
     "service-worker.js": "/aflandrei/service-worker.js",
-    "static/css/main.5b95d0b7.chunk.css.map": "/aflandrei/static/css/main.5b95d0b7.chunk.css.map",
+    "static/css/main.c236c71d.chunk.css.map": "/aflandrei/static/css/main.c236c71d.chunk.css.map",
     "static/js/2.1ffed3fb.chunk.js.LICENSE.txt": "/aflandrei/static/js/2.1ffed3fb.chunk.js.LICENSE.txt",
     "static/media/Screenshot_1.jpg": "/aflandrei/static/media/Screenshot_1.f194fdcf.jpg",
     "static/media/Screenshot_2.jpg": "/aflandrei/static/media/Screenshot_2.304282ea.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.60a31f64.js",
     "static/js/2.1ffed3fb.chunk.js",
-    "static/css/main.5b95d0b7.chunk.css",
-    "static/js/main.322c0ada.chunk.js"
+    "static/css/main.c236c71d.chunk.css",
+    "static/js/main.ff34d5a5.chunk.js"
   ]
 }
